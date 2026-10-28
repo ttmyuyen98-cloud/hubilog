@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Hubi site settings and configuration
+    match /hubi_config/{configId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Hubi real-time delivery bookings collection
+    match /hubi_bookings/{bookingId} {
+      // Allow public read and write so residents can place bookings and see real-time updates across all screens
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}

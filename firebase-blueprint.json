@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "SiteSettings": {
+      "title": "SiteSettings",
+      "description": "HUBI LOGISTICS site configuration, branding, theme, articles, about cards, and team members",
+      "type": "object",
+      "properties": {
+        "theme": {
+          "type": "object",
+          "description": "Theme color tokens and branding asset paths"
+        },
+        "articles": {
+          "type": "array",
+          "description": "Published articles list"
+        },
+        "about": {
+          "type": "object",
+          "description": "Problem, solution, and core values bento cards with custom images and copy"
+        },
+        "team": {
+          "type": "array",
+          "description": "Project core team members"
+        },
+        "contact": {
+          "type": "object",
+          "description": "Dispatch headquarters and contact points"
+        },
+        "version": {
+          "type": "number",
+          "description": "Configuration revision counter"
+        }
+      }
+    },
+    "DeliveryBooking": {
+      "title": "DeliveryBooking",
+      "description": "Real-time delivery booking order placed by resident, dispatched via fixed time slots",
+      "type": "object",
+      "properties": {
+        "bookingCode": {
+          "type": "string",
+          "description": "Public unique tracking code (e.g. HUBI-74921)"
+        },
+        "fullName": {
+          "type": "string",
+          "description": "Sender or resident name"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Contact phone number"
+        },
+        "pickupPoint": {
+          "type": "string",
+          "description": "Pickup tower or apartment number"
+        },
+        "dropoffPoint": {
+          "type": "string",
+          "description": "Destination tower or apartment number"
+        },
+        "timeSlot": {
+          "type": "string",
+          "description": "Slot identifier (slot_morning, slot_afternoon, slot_evening)"
+        },
+        "timeSlotLabel": {
+          "type": "string",
+          "description": "Human readable slot label"
+        },
+        "packageType": {
+          "type": "string",
+          "description": "Category of goods"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Delivery instructions or access notes"
+        },
+        "estimatedFee": {
+          "type": "number",
+          "description": "HUBI calculated delivery fee (VND)"
+        },
+        "singleRate": {
+          "type": "number",
+          "description": "Traditional single courier fee for comparison"
+        },
+        "savedAmount": {
+          "type": "number",
+          "description": "Calculated savings for resident"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "confirmed", "in_transit", "delivered", "cancelled"],
+          "description": "Current lifecycle status of delivery dispatch"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of creation"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last status update"
+        }
+      },
+      "required": ["bookingCode", "fullName", "pickupPoint", "dropoffPoint", "timeSlot", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/hubi_config/{configId}": {
+      "schema": "SiteSettings",
+      "description": "Global application configuration document"
+    },
+    "/hubi_bookings/{bookingId}": {
+      "schema": "DeliveryBooking",
+      "description": "Collection of real-time delivery booking orders synchronized across all active devices"
+    }
+  }
+}

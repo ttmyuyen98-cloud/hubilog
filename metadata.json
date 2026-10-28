@@ -1,0 +1,6 @@
+{
+  "name": "HUBI LOGISTICS - Gom Đơn Giao Nội Khu Theo Giờ",
+  "description": "Website portfolio HUBI LOGISTICS: giải pháp gom đơn giao nội khu theo khung giờ cố định tối ưu chi phí và hành trình.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

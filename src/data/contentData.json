@@ -1,0 +1,302 @@
+{
+  "brand": {
+    "name": "HUBI LOGISTICS",
+    "shortName": "HUBI",
+    "serviceName": "Gom đơn giao nội khu theo giờ",
+    "slogan": "Nhận Đúng Giờ – Phí Siêu Hời",
+    "ctaText": "ĐẶT LỊCH NGAY",
+    "ctaSubtext": "(Giả lập đặt lịch)",
+    "primaryColors": "Ocean Deep (#0A192F) – Cyan Glow (#00E5FF) – Ice White (#E6F1FF)",
+    "email": "ttmyuyen98@gmail.com",
+    "logoPath": "./assets/s1_logo_brand_01.png"
+  },
+  "navigation": [
+    { "id": "slide-1", "title": "Trang chủ", "tag": "S1: Home" },
+    { "id": "slide-2", "title": "Giới thiệu", "tag": "S2: About Us" },
+    { "id": "slide-3", "title": "Dịch vụ", "tag": "S3: Services" },
+    { "id": "slide-4", "title": "Tin tức", "tag": "S4: Blog" },
+    { "id": "slide-5", "title": "Liên hệ", "tag": "S5: Contact" }
+  ],
+  "slides": {
+    "s1_home": {
+      "id": "slide-1",
+      "slideNumber": "S1",
+      "layout": "Hero Layout",
+      "primaryTitle": "Trang chủ (Home)",
+      "displayTitle": "Gom Đơn Nội Khu Giao Theo Giờ",
+      "secondaryTitle": "Tổng quan giao diện và lối tắt truy cập",
+      "slogan": "Nhận Đúng Giờ – Phí Siêu Hời",
+      "bodyContent": "HUBI cung cấp giải pháp gom đơn cùng khu vực, giao theo khung giờ nhằm tối ưu chi phí và thời gian.",
+      "heroImage": "./assets/s1_hero_delivery_01.jpg",
+      "heroImageAlt": "Banner trang chủ HUBI LOGISTICS: Gom đơn giao nội khu theo giờ",
+      "teamMembers": [
+        {
+          "name": "Trần Thị Mỹ Uyên",
+          "role": "Founder & Product Lead",
+          "badge": "Leader"
+        },
+        {
+          "name": "Nguyễn Thị Thanh Hương",
+          "role": "Logistics & Operations",
+          "badge": "Ops"
+        },
+        {
+          "name": "Trần Thị Lan Anh",
+          "role": "System & Data Admin",
+          "badge": "Tech"
+        }
+      ],
+      "cta": {
+        "text": "ĐẶT LỊCH NGAY",
+        "action": "openBookingModal"
+      },
+      "highlights": [
+        {
+          "id": "h1",
+          "title": "Gom đơn nội khu",
+          "desc": "Tập hợp các gói hàng trong cùng cụm chung cư hoặc tiểu khu để tối ưu hóa quãng đường.",
+          "icon": "./assets/s1_icon_group_01.png",
+          "stat": "Gộp đơn"
+        },
+        {
+          "id": "h2",
+          "title": "Giao hàng theo giờ",
+          "desc": "Các khung giờ cố định buổi sáng và buổi chiều giúp người nhận hoàn toàn chủ động.",
+          "icon": "./assets/s1_icon_time_02.png",
+          "stat": "Đúng giờ"
+        },
+        {
+          "id": "h3",
+          "title": "Tiết kiệm phí vận chuyển",
+          "desc": "Cắt giảm đến 60% chi phí chuyển phát so với hình thức gọi shipper từng chuyến riêng lẻ.",
+          "icon": "./assets/s1_icon_saving_03.png",
+          "stat": "-60% phí"
+        }
+      ]
+    },
+    "s2_about": {
+      "id": "slide-2",
+      "slideNumber": "S2",
+      "layout": "Bento Grid",
+      "primaryTitle": "Giới thiệu (About Us)",
+      "secondaryTitle": "Vấn đề, giải pháp và giá trị cốt lõi của dự án",
+      "bodyContent": "Vấn đề, giải pháp, giá trị và thông tin nhóm triển khai dự án.",
+      "bentoItems": {
+        "problem": {
+          "tag": "Vấn đề hiện hữu",
+          "title": "Giao Đơn Lẻ Lãng Phí & Phân Tán",
+          "description": "Phí giao hàng đơn lẻ cao gấp 2-3 lần bình thường. Shipper giao phân tán rải rác trong ngày khiến cư dân khó chủ động thời gian nhận, gây quá tải khu vực sảnh chung cư.",
+          "image": "./assets/s2_problem_isolated_01.jpg",
+          "imageAlt": "Minh họa các gói hàng riêng lẻ nằm rải rác lãng phí",
+          "metrics": [
+            { "label": "Phí trung bình", "val": "35K - 45K / đơn" },
+            { "label": "Tình trạng", "val": "Chờ đợi phân tán" }
+          ]
+        },
+        "solution": {
+          "tag": "Giải pháp đột phá",
+          "title": "Mô Hình Gom Đơn Theo Khung Giờ Cố Định",
+          "description": "HUBI thu thập và gom các đơn cùng cụm tòa nhà/khu đô thị, sau đó phân phối tập trung vào các khung giờ vàng định sẵn. Tuyến đường được rút ngắn và tối ưu hóa toàn diện.",
+          "image": "./assets/s2_solution_hubi_02.jpg",
+          "imageAlt": "Đồ họa tuyến đường tối ưu gom đơn tập trung",
+          "metrics": [
+            { "label": "Tối ưu tuyến", "val": "Giảm 75% quãng đường" },
+            { "label": "Khung giờ vàng", "val": "Sáng & Chiều tan tầm" }
+          ]
+        },
+        "value": {
+          "tag": "Giá trị cốt lõi",
+          "title": "Tiết Kiệm - Tiện Lợi - Bền Vững",
+          "description": "Cắt giảm gánh nặng tài chính cho người mua và cửa hàng, mang lại sự tiện nghi trong nếp sống đô thị, giảm thiểu khí thải và ùn ứ xe cộ tại khu dân cư.",
+          "valuesList": [
+            { "title": "Tiết kiệm chi phí", "desc": "Giảm sâu cước giao nhận nội bộ." },
+            { "title": "Thuận tiện tối đa", "desc": "Khách hàng biết chính xác thời điểm nhận kiện hàng." },
+            { "title": "Tối ưu tuyến đường", "desc": "Hạn chế tối đa các chuyến giao trùng tuyến." }
+          ]
+        },
+        "team": {
+          "tag": "Đội ngũ dự án",
+          "title": "HUBI Logistics Pioneer Team",
+          "description": "Tập thể sáng lập đầy nhiệt huyết kết hợp tư duy công nghệ và năng lực thực thi logistics chặng cuối.",
+          "image": "./assets/s2_team_members_03.jpg",
+          "imageAlt": "Đội ngũ dự án HUBI LOGISTICS: Trần Thị Mỹ Uyên, Nguyễn Thị Thanh Hương, Trần Thị Lan Anh",
+          "members": [
+            {
+              "name": "Trần Thị Mỹ Uyên",
+              "role": "Founder & Product Lead",
+              "email": "ttmyuyen98@gmail.com",
+              "responsibility": "Định hướng chiến lược, nghiên cứu trải nghiệm người dùng & điều phối tổng thể dự án."
+            },
+            {
+              "name": "Nguyễn Thị Thanh Hương",
+              "role": "Logistics & Operations",
+              "email": "huong.nguyen@hubilogistics.vn",
+              "responsibility": "Quản lý dữ liệu phân tuyến, thiết lập khung giờ vàng và kết nối đối tác khu đô thị."
+            },
+            {
+              "name": "Trần Thị Lan Anh",
+              "role": "System & Data Admin",
+              "email": "lananh.tran@hubilogistics.vn",
+              "responsibility": "Phát triển thuật toán gom đơn vi mô, bảo mật thông tin khách hàng và tự động hóa dữ liệu."
+            }
+          ]
+        }
+      }
+    },
+    "s3_services": {
+      "id": "slide-3",
+      "slideNumber": "S3",
+      "layout": "Split Dashboard (Chữ Trái - Ảnh Phải)",
+      "primaryTitle": "Sản phẩm / Dịch vụ (Services)",
+      "secondaryTitle": "Chi tiết dịch vụ gom đơn nội khu và quy trình vận hành",
+      "bodyContent": "Dịch vụ chính, lợi ích, đối tượng hướng đến, quy trình thực hiện và công cụ tương tác.",
+      "details": {
+        "mainService": {
+          "title": "Dịch Vụ Gom Đơn & Giao Hàng Nội Khu Theo Giờ",
+          "description": "HUBI là cầu nối thông minh trung chuyển hàng hóa trong các khu đô thị vệ tinh, chung cư cao tầng và cụm dân cư khép kín. Bằng cách thiết lập các điểm tập kết linh hoạt và xuất phát theo mốc thời gian định trước, chúng tôi biến việc giao nhận nội khu thành một thói quen chuẩn xác và tiết kiệm."
+        },
+        "benefits": [
+          { "title": "Giảm chi phí giao nhận", "desc": "Tiết kiệm tới 60% ngân sách vận chuyển nhờ phân bổ chi phí trên nhiều đơn hàng cùng lộ trình." },
+          { "title": "Chủ động thời gian", "desc": "Người gửi và người nhận biết trước khung giờ shipper đến, không bị gián đoạn công việc hay sinh hoạt." },
+          { "title": "Hạn chế trùng tuyến", "desc": "Thay vì 10 shipper chạy 10 lần vào cùng 1 tòa nhà, HUBI gộp lại chỉ 1 chuyến giao duy nhất." }
+        ],
+        "targetAudience": [
+          {
+            "id": "aud-1",
+            "title": "Cư dân chung cư",
+            "desc": "Người thường xuyên mua sắm online, đặt hàng nội khu, mong muốn nhận hàng vào khung giờ sau giờ làm.",
+            "image": "./assets/s3_target_apartment_02.jpg"
+          },
+          {
+            "id": "aud-2",
+            "title": "Cửa hàng nội khu & Người bán online",
+            "desc": "Các tiệm tạp hóa, thực phẩm sạch, tiệm bánh và cư dân kinh doanh online cần ship đơn cho hàng xóm.",
+            "image": "./assets/s3_target_shop_03.jpg"
+          }
+        ],
+        "processFlow": {
+          "title": "Quy trình vận hành 4 bước chuẩn hóa",
+          "image": "./assets/s3_process_flow_04.png",
+          "steps": [
+            { "step": "01", "name": "Đặt lịch", "detail": "Khách hàng chọn điểm nhận, điểm giao và khung giờ mong muốn." },
+            { "step": "02", "name": "Gom đơn", "detail": "Hệ thống HUBI tổng hợp các đơn có cùng cụm tọa độ." },
+            { "step": "03", "name": "Phân tuyến", "detail": "Thuật toán sắp xếp lộ trình đi bộ/xe điện ngắn và thông minh nhất." },
+            { "step": "04", "name": "Giao hàng", "detail": "Kiện hàng được giao đến tận cửa hoặc sảnh đón đúng cam kết." }
+          ]
+        }
+      },
+      "visualPanel": {
+        "mainImage": "./assets/s3_service_main_01.jpg",
+        "apartmentImage": "./assets/s3_target_apartment_02.jpg",
+        "shopImage": "./assets/s3_target_shop_03.jpg",
+        "caption": "Mô hình giao nhận nội khu hiện đại tại các cụm cư dân thông minh"
+      }
+    },
+    "s4_blog": {
+      "id": "slide-4",
+      "slideNumber": "S4",
+      "layout": "Adaptive Showcase (Horizontal Row)",
+      "primaryTitle": "Tin tức / Bài viết (Blog)",
+      "secondaryTitle": "Kho tài nguyên và cập nhật thông tin logistics",
+      "bodyContent": "Hiển thị 4 bài viết bao gồm đầy đủ thành phần trực quan và nội dung chi tiết.",
+      "articles": [
+        {
+          "id": "art-1",
+          "title": "HUBI LOGISTICS – Giải pháp giao hàng nội khu thông minh",
+          "category": "Giải pháp",
+          "date": "24/10/2026",
+          "readTime": "4 phút đọc",
+          "excerpt": "Khám phá cách HUBI tái định hình trải nghiệm giao vận vi mô tại các khu đô thị hiện đại bằng thuật toán gom đơn theo khung giờ cố định.",
+          "fullContent": "Tại các đại đô thị hiện nay, lượng hàng hóa lưu thông giữa các tòa nhà và từ cổng khu đô thị vào tận sảnh chung cư đang bùng nổ theo cấp số nhân. Tuy nhiên, mô hình giao hàng truyền thống vẫn mang tính phân tán, mỗi gói hàng cần một shipper di chuyển riêng lẻ. Điều này dẫn đến chi phí vận chuyển tăng cao, sảnh chung cư luôn trong tình trạng quá tải và cư dân liên tục bị gián đoạn vì các cuộc gọi nhận hàng bất ngờ.\n\nHUBI LOGISTICS ra đời nhằm giải quyết triệt để vấn đề này. Bằng cách xây dựng các trạm trung chuyển mini (Micro-Hubs) tại từng phân khu và ứng dụng công nghệ phân bổ tuyến đường theo khung giờ cố định, HUBI giúp tối ưu hóa 100% chuyến đi, đưa chi phí về mức siêu rẻ chỉ từ 8.000đ – 15.000đ mỗi đơn hàng nội khu.",
+          "thumbnail": "./assets/s4_thumb_solution_01.jpg"
+        },
+        {
+          "id": "art-2",
+          "title": "Gom đơn giao hàng giúp tiết kiệm chi phí như thế nào?",
+          "category": "Tài chính & Tối ưu",
+          "date": "22/10/2026",
+          "readTime": "3 phút đọc",
+          "excerpt": "Phân tích kinh tế học logistics vi mô: Làm thế nào việc kết hợp nhiều đơn hàng cùng tuyến có thể giảm đến 60% chi phí chuyển phát.",
+          "fullContent": "Chi phí chặng cuối (Last-Mile Delivery) thường chiếm từ 40% đến 53% tổng chi phí vận tải trong chuỗi cung ứng. Khi một shipper phải thực hiện một hành trình chỉ để giao một kiện hàng 200 gram từ Tòa A sang Tòa B, hơn 80% chi phí phát sinh là thời gian chết (tìm đường, gửi xe, đi thang máy, chờ người nhận).\n\nPhương thức gom đơn của HUBI biến mô hình '1 đơn - 1 chuyến' thành 'Nhiều đơn - 1 khung giờ'. Shipper HUBI chỉ di chuyển một lần trong khung giờ cư dân có mặt tại nhà, phân phát toàn bộ các gói hàng trên cùng trục thang máy hoặc hành lang. Lợi ích kinh tế quy mô này được hoàn trả trực tiếp cho cư dân và người bán thông qua mức giá cước siêu ưu đãi.",
+          "thumbnail": "./assets/s4_thumb_cost_02.jpg"
+        },
+        {
+          "id": "art-3",
+          "title": "Xu hướng logistics chặng cuối tại các khu đô thị",
+          "category": "Xu hướng",
+          "date": "18/10/2026",
+          "readTime": "5 phút đọc",
+          "excerpt": "Những chuyển dịch tất yếu của mô hình vận tải nội khu hướng đến đô thị thông minh, phương tiện xanh và số hóa điểm tập kết.",
+          "fullContent": "Xu hướng quy hoạch đô thị tương lai ngày càng hướng đến các mô hình 'Thành phố 15 phút' và cụm cộng đồng tự khép kín (Self-contained neighborhoods). Trong bối cảnh đó, phương tiện vận tải lớn bị hạn chế di chuyển sâu vào không gian nội bộ của cư dân nhằm đảm bảo an toàn và giảm thiểu ô nhiễm tiếng ồn.\n\nLogistics nội khu siêu vi mô (Hyper-local Micro-logistics) với sự kết hợp của xe đẩy chuyên dụng, xe điện nhỏ và nhân sự am hiểu cấu trúc tòa nhà chính là tương lai. HUBI tự hào là một trong những đơn vị tiên phong ứng dụng giải pháp này tại Việt Nam, mang đến giải pháp giao nhận nhân văn, văn minh và bền vững cho môi trường.",
+          "thumbnail": "./assets/s4_thumb_trend_03.jpg"
+        },
+        {
+          "id": "art-4",
+          "title": "Hướng dẫn sử dụng dịch vụ HUBI LOGISTICS",
+          "category": "Cẩm nang",
+          "date": "15/10/2026",
+          "readTime": "2 phút đọc",
+          "excerpt": "Cẩm nang chi tiết 3 bước đơn giản để cư dân và chủ shop đặt lịch gom đơn, theo dõi lộ trình và nhận hàng đúng khung giờ.",
+          "fullContent": "Để trải nghiệm dịch vụ gom đơn tiện lợi cùng HUBI LOGISTICS, người dùng chỉ cần thực hiện 3 thao tác đơn giản:\n\n1. Bước 1: Nhấp vào nút 'ĐẶT LỊCH NGAY' trên thanh điều hướng hoặc banner trang chủ.\n2. Bước 2: Điền thông tin cơ bản gồm Họ tên, Tòa nhà gửi (Điểm nhận), Tòa nhà nhận (Điểm giao) và lựa chọn Khung giờ giao nhận phù hợp nhất trong ngày (Khung giờ sáng 08:00 - 09:30 hoặc Khung giờ chiều 17:30 - 19:30).\n3. Bước 3: Nhấn nút 'XÁC NHẬN ĐẶT LỊCH'. Hệ thống sẽ tự động tổng hợp đơn hàng vào đợt giao tương ứng và nhân viên HUBI sẽ liên hệ nhận hàng theo đúng lịch hẹn đã chọn.",
+          "thumbnail": "./assets/s4_thumb_guide_04.jpg"
+        }
+      ]
+    },
+    "s5_contact": {
+      "id": "slide-5",
+      "slideNumber": "S5",
+      "layout": "Split Dashboard (Zig-zag: Ảnh Trái - Chữ Phải)",
+      "primaryTitle": "Liên hệ (Contact)",
+      "secondaryTitle": "Kênh kết nối và biểu mẫu tương tác trực tuyến",
+      "bodyContent": "Thông tin liên lạc, biểu mẫu gửi thông tin, nút xác nhận và chính sách bảo mật.",
+      "contactInfo": {
+        "email": "ttmyuyen98@gmail.com",
+        "emailIcon": "./assets/s5_icon_email_02.png",
+        "backgroundPanel": "./assets/s5_support_background_01.jpg",
+        "headline": "Kết Nối Cùng Ban Dự Án HUBI",
+        "subline": "Chúng tôi luôn lắng nghe phản hồi của cư dân và sẵn sàng hợp tác cùng các ban quản lý đô thị.",
+        "operatingHours": "Thứ 2 – Chủ Nhật: 07:30 – 21:00",
+        "address": "Trung tâm điều phối HUBI Logistics, Khu đô thị mẫu, TP. Hồ Chí Minh"
+      },
+      "form": {
+        "title": "Gửi Thông Tin Liên Hệ Trực Tuyến",
+        "description": "Vui lòng để lại tin nhắn hoặc yêu cầu hỗ trợ. Nhóm chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+        "fields": [
+          { "id": "name", "label": "Họ và tên", "placeholder": "Nguyễn Văn A", "type": "text" },
+          { "id": "email", "label": "Địa chỉ Email", "placeholder": "nguyenvana@gmail.com", "type": "email" },
+          { "id": "message", "label": "Nội dung liên hệ", "placeholder": "Nhập thắc mắc, đề xuất hợp tác hoặc phản hồi về dịch vụ gom đơn...", "type": "textarea" }
+        ],
+        "submitText": "GỬI LIÊN HỆ",
+        "security": {
+          "badgeIcon": "./assets/s5_shield_security_03.png",
+          "statement": "Bảo mật thông tin: Dữ liệu cá nhân của bạn được bảo mật tuyệt đối, không chia sẻ cho bên thứ ba."
+        }
+      }
+    }
+  },
+  "bookingModal": {
+    "title": "ĐẶT LỊCH GIAO HÀNG NỘI KHU",
+    "subtitle": "Mô phỏng đặt lịch gom đơn cùng HUBI LOGISTICS",
+    "notice": "Lưu ý: Đây là biểu mẫu giả lập trải nghiệm, không phát sinh đơn hàng thực tế.",
+    "fields": {
+      "fullName": { "label": "Họ và tên khách hàng", "placeholder": "Ví dụ: Nguyễn Văn A" },
+      "pickupPoint": { "label": "Điểm nhận hàng (Tòa/Phân khu)", "placeholder": "Ví dụ: Tòa Landmark 2, Sảnh A" },
+      "dropoffPoint": { "label": "Điểm giao hàng (Tòa/Căn hộ)", "placeholder": "Ví dụ: Tòa Park 6, Căn 12.08" },
+      "timeSlot": {
+        "label": "Khung giờ gom & giao mong muốn",
+        "options": [
+          { "value": "slot_morning", "label": "Khung giờ sáng: 08:00 – 09:30 (Đợt 1)" },
+          { "value": "slot_noon", "label": "Khung giờ trưa: 11:30 – 12:30 (Đợt 2)" },
+          { "value": "slot_evening", "label": "Khung giờ chiều tối: 17:30 – 19:30 (Đợt 3 - Cư dân về nhà)" }
+        ]
+      }
+    },
+    "submitBtn": "XÁC NHẬN ĐẶT LỊCH",
+    "successMessage": {
+      "title": "Đặt Lịch Thành Công (Mô Phỏng)!",
+      "desc": "Cảm ơn bạn đã trải nghiệm mô hình gom đơn HUBI LOGISTICS. Chúng tôi đã ghi nhận yêu cầu giả lập của bạn.",
+      "codePrefix": "Mã lịch hẹn: HUBI-",
+      "closeBtn": "ĐÓNG CỬA SỔ"
+    }
+  }
+}
